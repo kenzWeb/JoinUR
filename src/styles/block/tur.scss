@@ -1,0 +1,49 @@
+.tur {
+	padding-top: 190px;
+	padding-bottom: 100px;
+	background: #088be6;
+	&__container {
+		display: flex;
+	}
+
+	&__header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__header-title {
+		color: #1c1c1c;
+		font-size: 44px;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+
+	&__header-subtitle {
+		color: #1c1c1c;
+		font-size: 24px;
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+
+	&__content {
+		margin-top: 150px;
+		display: flex;
+		align-items: center;
+		gap: 60px;
+	}
+
+	&__content-card {
+		img {
+			border-radius: 40px;
+		}
+
+		h4 {
+			margin-top: 28px;
+			color: #000;
+			font-size: 24px;
+			font-weight: 300;
+			line-height: normal;
+			text-transform: uppercase;
+		}
+	}
+}

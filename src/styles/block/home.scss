@@ -1,0 +1,62 @@
+.home {
+	background-image: url('img/bg.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 900px;
+
+	&__title {
+		color: #fff;
+		text-align: center;
+		padding-top: 90px;
+		font-size: 128px;
+		font-weight: 800;
+		line-height: 135px;
+		text-transform: uppercase;
+	}
+
+	&__menu {
+		margin-top: 320px;
+		display: flex;
+		justify-content: space-between;
+		border-radius: 30px;
+		padding: 15px 30px;
+		background: #0e40c5;
+	}
+
+	&__menu-card {
+		display: flex;
+		flex-direction: column;
+		color: white;
+		&:not(:last-child) {
+			border-right: 1px solid #fff;
+			padding-right: 90px;
+		}
+		&_title {
+			color: #fff;
+			font-size: 12px;
+			font-weight: 400;
+		}
+
+		&_info {
+			color: #fff;
+			font-size: 16px;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+	}
+
+	&__menu-button {
+		border-radius: 30px;
+		background: rgba(8, 139, 230, 0.83);
+		color: #fff;
+		font-size: 18px;
+		font-weight: 500;
+		text-transform: uppercase;
+		padding: 11px 40px;
+		transition: all 0.3s linear;
+
+		&:hover {
+			background: rgba(61, 154, 221, 0.83);
+		}
+	}
+}

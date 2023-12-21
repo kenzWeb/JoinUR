@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// base
+
+@import 'fonts';
+@import 'reset';
+// block
+@import '../block/header.scss';
+@import '../block/home.scss';
+@import '../block/tur.scss';
+@import '../block/popular.scss';
+@import '../block/about.scss';
+@import '../block/footer.scss';
+
+[class*='__container'] {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+body {
+	font-family: Roboto;
+	color: black;
+}
